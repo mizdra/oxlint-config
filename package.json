@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/mizdra/oxlint-config#readme",
   "devDependencies": {
+    "@mizdra/eslint-config-mizdra": "^7.0.0",
+    "eslint": "^9.39.2",
     "typescript": "^5.9.3"
   }
 }
