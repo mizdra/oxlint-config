@@ -1,0 +1,28 @@
+{
+  "name": "@mizdra/oxlint-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mizdra/oxlint-config.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "mizdra <pp.mizdra@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mizdra/oxlint-config/issues"
+  },
+  "homepage": "https://github.com/mizdra/oxlint-config#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
