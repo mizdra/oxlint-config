@@ -11,6 +11,7 @@
     "**/dist"
   ],
   "overrides": [
+    // @eslint/js/recommended
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -78,6 +79,7 @@
         "valid-typeof": "error"
       }
     },
+    // @mizdra/eslint-config-mizdra/base/js
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -170,6 +172,7 @@
         ]
       }
     },
+    // typescript-eslint/eslint-recommended
     {
       "files": [
         "**/*.{ts,tsx,mts,cts}"
@@ -197,6 +200,7 @@
         "prefer-spread": "error"
       }
     },
+    // typescript-eslint/recommended-type-checked
     {
       "files": [
         "**/*.{ts,tsx,mts,cts}"
@@ -253,6 +257,7 @@
         "typescript"
       ]
     },
+    // @mizdra/eslint-config-mizdra/typescript
     {
       "files": [
         "**/*.{ts,tsx,mts,cts}"
@@ -287,6 +292,7 @@
         "typescript"
       ]
     },
+    // n.configs['flat/recommended']
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -372,6 +378,7 @@
         "es2024": true
       }
     },
+    // @mizdra/eslint-config-mizdra/node
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -381,6 +388,7 @@
         "node": true
       }
     },
+    // reactPlugin.configs.flat.recommended
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -409,6 +417,7 @@
         "react"
       ]
     },
+    // reactPlugin.configs.flat['jsx-runtime']
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -421,6 +430,7 @@
         "react"
       ]
     },
+    // reactHooks.configs.flat.recommended
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -434,6 +444,7 @@
         "react"
       ]
     },
+    // @mizdra/eslint-config-mizdra/react
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -462,6 +473,7 @@
         "browser": true
       }
     },
+    // @mizdra/eslint-config-mizdra/prettier
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
