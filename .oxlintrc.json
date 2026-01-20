@@ -304,7 +304,6 @@
         "node/hashbang": "error",
       },
       "env": {
-        "es2021": true,
         "node": true
       }
     },
