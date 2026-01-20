@@ -1,0 +1,90 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "overrides": [
+    // reactPlugin.configs.flat.recommended
+    {
+      "files": [
+        "**/*.{js,jsx,mjs,cjs}",
+        "**/*.{ts,tsx,mts,cts}"
+      ],
+      "rules": {
+        "react/jsx-key": "error",
+        "react/jsx-no-comment-textnodes": "error",
+        "react/jsx-no-duplicate-props": "error",
+        "react/jsx-no-target-blank": "error",
+        "react/jsx-no-undef": "error",
+        "react/no-children-prop": "error",
+        "react/no-danger-with-children": "error",
+        "react/no-direct-mutation-state": "error",
+        "react/no-find-dom-node": "error",
+        "react/no-is-mounted": "error",
+        "react/no-render-return-value": "error",
+        "react/no-string-refs": "error",
+        "react/no-unescaped-entities": "error",
+        "react/no-unknown-property": "error",
+        "react/no-unsafe": "off",
+        "react/react-in-jsx-scope": "error",
+        "react/require-render-return": "error"
+      },
+      "plugins": [
+        "react"
+      ]
+    },
+    // reactPlugin.configs.flat['jsx-runtime']
+    {
+      "files": [
+        "**/*.{js,jsx,mjs,cjs}",
+        "**/*.{ts,tsx,mts,cts}"
+      ],
+      "rules": {
+        "react/react-in-jsx-scope": "off"
+      },
+      "plugins": [
+        "react"
+      ]
+    },
+    // reactHooks.configs.flat.recommended
+    {
+      "files": [
+        "**/*.{js,jsx,mjs,cjs}",
+        "**/*.{ts,tsx,mts,cts}"
+      ],
+      "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+      },
+      "plugins": [
+        "react"
+      ]
+    },
+    // @mizdra/eslint-config-mizdra/react
+    {
+      "files": [
+        "**/*.{js,jsx,mjs,cjs}",
+        "**/*.{ts,tsx,mts,cts}"
+      ],
+      "rules": {
+        "react/button-has-type": "error",
+        "react/iframe-missing-sandbox": "error",
+        "react/jsx-boolean-value": "error",
+        "react/jsx-curly-brace-presence": [
+          "error",
+          "never"
+        ],
+        "react/jsx-no-target-blank": [
+          "error",
+          {
+            "allowReferrer": true
+          }
+        ],
+        "react/self-closing-comp": "error"
+      },
+      "plugins": [
+        "react"
+      ],
+      "env": {
+        "browser": true
+      }
+    }
+  ]
+}
