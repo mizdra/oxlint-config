@@ -1,30 +1,17 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "overrides": [
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "react/button-has-type": "error",
-        "react/iframe-missing-sandbox": "error",
-        "react/jsx-boolean-value": "error",
-        "react/jsx-curly-brace-presence": [
-          "error",
-          "never"
-        ],
-        "react/jsx-no-comment-textnodes": "error",
-        "react/no-unescaped-entities": "error",
-        "react/rules-of-hooks": "error",
-        "react/self-closing-comp": "error"
-      },
-      "plugins": [
-        "react"
-      ],
-      "env": {
-        "browser": true
-      }
-    }
-  ]
+  "rules": {
+    "react/button-has-type": "error",
+    "react/iframe-missing-sandbox": "error",
+    "react/jsx-boolean-value": "error",
+    "react/jsx-curly-brace-presence": ["error", "never"],
+    "react/jsx-no-comment-textnodes": "error",
+    "react/no-unescaped-entities": "error",
+    "react/rules-of-hooks": "error",
+    "react/self-closing-comp": "error"
+  },
+  "plugins": ["react"],
+  "env": {
+    "browser": true
+  }
 }

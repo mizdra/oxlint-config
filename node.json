@@ -1,20 +1,12 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "overrides": [
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "node/hashbang": "error",
-        "node/no-exports-assign": "error",
-        "unicorn/no-process-exit": "error",
-        "unicorn/prefer-node-protocol": "error"
-      },
-      "env": {
-        "node": true
-      }
-    }
-  ]
+  "rules": {
+    "node/hashbang": "error",
+    "node/no-exports-assign": "error",
+    "unicorn/no-process-exit": "error",
+    "unicorn/prefer-node-protocol": "error"
+  },
+  "env": {
+    "node": true
+  }
 }
