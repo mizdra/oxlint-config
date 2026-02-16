@@ -1,34 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "overrides": [
-    // typescript-eslint/eslint-recommended
-    {
-      "files": [
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "constructor-super": "off",
-        "getter-return": "off",
-        "no-class-assign": "off",
-        "no-const-assign": "off",
-        "no-dupe-class-members": "off",
-        "no-dupe-keys": "off",
-        "no-func-assign": "off",
-        "no-import-assign": "off",
-        "no-new-native-nonconstructor": "off",
-        "no-obj-calls": "off",
-        "no-redeclare": "off",
-        "no-setter-return": "off",
-        "no-this-before-super": "off",
-        "no-undef": "off",
-        "no-unreachable": "off",
-        "no-unsafe-negation": "off",
-        "no-var": "error",
-        "no-with": "off",
-        "prefer-rest-params": "error",
-        "prefer-spread": "error"
-      }
-    },
     // typescript-eslint/recommended-type-checked
     {
       "files": [
@@ -74,19 +46,6 @@
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/no-deprecated": "error",
         "@typescript-eslint/promise-function-async": "error",
-        "no-useless-constructor": "error",
-        "no-unused-vars": [
-          "error",
-          {
-            "args": "all",
-            "argsIgnorePattern": "^_",
-            "caughtErrors": "all",
-            "caughtErrorsIgnorePattern": "^_",
-            "destructuredArrayIgnorePattern": "^_",
-            "varsIgnorePattern": "^_",
-            "ignoreRestSiblings": true
-          }
-        ],
         "@typescript-eslint/no-unsafe-argument": "off",
         "@typescript-eslint/no-unsafe-assignment": "off",
         "@typescript-eslint/no-unsafe-call": "off",
