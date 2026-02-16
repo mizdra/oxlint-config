@@ -9,25 +9,7 @@
       ],
       "rules": {
         "react/jsx-no-comment-textnodes": "error",
-        "react/jsx-no-target-blank": "error",
-        "react/no-unescaped-entities": "error",
-        "react/no-unknown-property": "error",
-        "react/no-unsafe": "off",
-        "react/react-in-jsx-scope": "error",
-        "react/require-render-return": "error"
-      },
-      "plugins": [
-        "react"
-      ]
-    },
-    // reactPlugin.configs.flat['jsx-runtime']
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/no-unescaped-entities": "error"
       },
       "plugins": [
         "react"
@@ -59,12 +41,6 @@
         "react/jsx-curly-brace-presence": [
           "error",
           "never"
-        ],
-        "react/jsx-no-target-blank": [
-          "error",
-          {
-            "allowReferrer": true
-          }
         ],
         "react/self-closing-comp": "error"
       },

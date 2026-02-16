@@ -11,16 +11,12 @@
         "**/*.{ts,tsx,mts,cts}"
       ],
       "rules": {
-        "getter-return": "error",
         "no-case-declarations": "error",
         "no-empty": "error",
         "no-fallthrough": "error",
         "no-prototype-builtins": "error",
         "no-redeclare": "error",
-        "no-regex-spaces": "error",
-        "no-undef": "error",
-        "no-unexpected-multiline": "error",
-        "no-unreachable": "error"
+        "no-regex-spaces": "error"
       }
     },
     // @mizdra/eslint-config-mizdra/base/js
