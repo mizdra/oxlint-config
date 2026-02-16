@@ -1,12 +1,14 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "overrides": [
-    // typescript-eslint/recommended-type-checked
-    {
+  "overrides": [    {
       "files": [
         "**/*.{ts,tsx,mts,cts}"
       ],
       "rules": {
+        "@typescript-eslint/array-type": "error",
+        "@typescript-eslint/consistent-type-assertions": "error",
+        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/no-deprecated": "error",
         "@typescript-eslint/no-empty-object-type": "error",
         "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/no-misused-promises": "error",
@@ -20,25 +22,10 @@
         "@typescript-eslint/only-throw-error": "error",
         "prefer-promise-reject-errors": "off",
         "@typescript-eslint/prefer-promise-reject-errors": "error",
+        "@typescript-eslint/promise-function-async": "error",
         "require-await": "off",
         "@typescript-eslint/require-await": "error",
         "@typescript-eslint/restrict-plus-operands": "error"
-      },
-      "plugins": [
-        "typescript"
-      ]
-    },
-    // @mizdra/eslint-config-mizdra/typescript
-    {
-      "files": [
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "@typescript-eslint/array-type": "error",
-        "@typescript-eslint/consistent-type-assertions": "error",
-        "@typescript-eslint/consistent-type-imports": "error",
-        "@typescript-eslint/no-deprecated": "error",
-        "@typescript-eslint/promise-function-async": "error"
       },
       "plugins": [
         "typescript"

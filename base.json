@@ -4,21 +4,6 @@
     "correctness": "error"
   },
   "overrides": [
-    // @eslint/js/recommended
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "no-case-declarations": "error",
-        "no-fallthrough": "error",
-        "no-prototype-builtins": "error",
-        "no-redeclare": "error",
-        "no-regex-spaces": "error"
-      }
-    },
-    // @mizdra/eslint-config-mizdra/base/js
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -27,8 +12,13 @@
       "rules": {
         "array-callback-return": "error",
         "no-await-in-loop": "warn",
+        "no-case-declarations": "error",
         "no-constructor-return": "error",
+        "no-fallthrough": "error",
         "no-promise-executor-return": "error",
+        "no-prototype-builtins": "error",
+        "no-redeclare": "error",
+        "no-regex-spaces": "error",
         "no-self-compare": "error",
         "no-template-curly-in-string": "error",
         "no-unused-vars": [

@@ -1,34 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "overrides": [
-    // reactPlugin.configs.flat.recommended
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "react/jsx-no-comment-textnodes": "error",
-        "react/no-unescaped-entities": "error"
-      },
-      "plugins": [
-        "react"
-      ]
-    },
-    // reactHooks.configs.flat.recommended
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "react-hooks/rules-of-hooks": "error"
-      },
-      "plugins": [
-        "react"
-      ]
-    },
-    // @mizdra/eslint-config-mizdra/react
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
@@ -42,6 +14,9 @@
           "error",
           "never"
         ],
+        "react/jsx-no-comment-textnodes": "error",
+        "react/no-unescaped-entities": "error",
+        "react-hooks/rules-of-hooks": "error",
         "react/self-closing-comp": "error"
       },
       "plugins": [

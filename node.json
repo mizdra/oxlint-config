@@ -1,29 +1,19 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "overrides": [
-    // n.configs['flat/recommended']
     {
       "files": [
         "**/*.{js,jsx,mjs,cjs}",
         "**/*.{ts,tsx,mts,cts}"
       ],
       "rules": {
+        "node/hashbang": "error",
         "node/no-exports-assign": "error",
         "unicorn/no-process-exit": "error",
-        "node/hashbang": "error",
+        "unicorn/prefer-node-protocol": "error"
       },
       "env": {
         "node": true
-      }
-    },
-    // @mizdra/eslint-config-mizdra/node
-    {
-      "files": [
-        "**/*.{js,jsx,mjs,cjs}",
-        "**/*.{ts,tsx,mts,cts}"
-      ],
-      "rules": {
-        "unicorn/prefer-node-protocol": "error"
       }
     }
   ]
