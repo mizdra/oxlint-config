@@ -27,7 +27,6 @@
     "no-console": "warn",
     "no-constructor-return": "error",
     "no-fallthrough": "error",
-    "no-labels": "warn",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
     "no-multi-assign": "error",
