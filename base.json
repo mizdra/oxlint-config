@@ -143,6 +143,7 @@
         "no-useless-rename": "error",
         "no-useless-return": "error",
         "no-var": "error",
+        "prefer-const": "error",
         "prefer-exponentiation-operator": "error",
         "prefer-numeric-literals": "error",
         "prefer-object-spread": "error",
