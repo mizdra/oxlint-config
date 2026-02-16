@@ -16,7 +16,7 @@
         ],
         "react/jsx-no-comment-textnodes": "error",
         "react/no-unescaped-entities": "error",
-        "react-hooks/rules-of-hooks": "error",
+        "react/rules-of-hooks": "error",
         "react/self-closing-comp": "error"
       },
       "plugins": [
