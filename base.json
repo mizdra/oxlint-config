@@ -12,7 +12,6 @@
       ],
       "rules": {
         "no-case-declarations": "error",
-        "no-empty": "error",
         "no-fallthrough": "error",
         "no-prototype-builtins": "error",
         "no-redeclare": "error",
@@ -64,7 +63,6 @@
         "no-alert": "warn",
         "no-array-constructor": "error",
         "no-console": "warn",
-        "no-empty": "off",
         "no-labels": "warn",
         "no-lone-blocks": "error",
         "no-loop-func": "error",
