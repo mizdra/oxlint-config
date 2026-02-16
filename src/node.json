@@ -6,6 +6,7 @@
     "unicorn/no-process-exit": "error",
     "unicorn/prefer-node-protocol": "error"
   },
+  "plugins": ["node", "unicorn"],
   "env": {
     "node": true
   }
