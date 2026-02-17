@@ -1,7 +1,6 @@
 {
   "$schema": "../node_modules/oxlint/configuration_schema.json",
   "rules": {
-    "node/hashbang": "error",
     "node/no-exports-assign": "error",
     "unicorn/no-process-exit": "error",
     "unicorn/prefer-node-protocol": "error"
