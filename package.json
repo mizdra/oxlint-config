@@ -1,6 +1,6 @@
 {
   "name": "@mizdra/oxlint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Oxlint config for @mizdra",
   "exports": {
     ".": {
@@ -21,8 +21,13 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "files": ["src"],
-  "keywords": ["oxlint", "oxlintconfig"],
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "oxlint",
+    "oxlintconfig"
+  ],
   "author": "mizdra <pp.mizdra@gmail.com>",
   "license": "MIT",
   "type": "module",
