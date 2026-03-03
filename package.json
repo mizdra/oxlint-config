@@ -1,6 +1,6 @@
 {
   "name": "@mizdra/oxlint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Oxlint config for @mizdra",
   "exports": {
     ".": {
