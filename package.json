@@ -17,10 +17,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/mizdra/oxlint-config.git"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "files": [
     "src"
   ],
