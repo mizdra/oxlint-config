@@ -3,6 +3,7 @@
   "rules": {
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
+    "@typescript-eslint/consistent-type-exports": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/no-deprecated": "error",
     "@typescript-eslint/no-empty-object-type": "error",
