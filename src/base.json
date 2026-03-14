@@ -2,8 +2,7 @@
   "$schema": "../node_modules/oxlint/configuration_schema.json",
   "options": {
     "reportUnusedDisableDirectives": "error",
-    "typeAware": true,
-    "typeCheck": true
+    "typeAware": true
   },
   "categories": {
     "correctness": "error"
