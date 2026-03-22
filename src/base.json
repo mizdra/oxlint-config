@@ -27,7 +27,6 @@
     "no-array-constructor": "error",
     "no-await-in-loop": "warn",
     "no-case-declarations": "error",
-    "no-console": "warn",
     "no-constructor-return": "error",
     "no-fallthrough": "error",
     "no-lone-blocks": "error",
