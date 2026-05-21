@@ -13,6 +13,7 @@ const rule = defineRule({
     fixable: "whitespace",
     docs: {
       description: "Enforce consistent indentation inside `dedent` tagged template literals.",
+      url: "https://github.com/mizdra/oxlint-config/blob/main/docs/rules/indent-in-dedent.md",
     },
     schema: [
       {
