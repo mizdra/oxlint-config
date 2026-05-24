@@ -24,6 +24,12 @@ export default defineConfig({
 });
 ```
 
+## Custom rules
+
+This config also ships custom rules implemented as an [Oxlint JS plugin](https://oxc.rs/docs/guide/usage/linter/js-plugins.html). They are enabled automatically by extending `mizdra.base`.
+
+- `mizdra/indent-in-dedent`: Enforces consistent indentation inside `dedent` tagged template literals. Reports content lines whose minimum indent does not match the opening line's indent plus one step, and a closing backtick whose indent does not match the opening line. Auto-fixes the indentation while preserving each line's relative indent. Options: `{ indent: number }` (default `2`).
+
 ## Design
 
 - Enable all rules in the `correctness` category

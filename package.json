@@ -8,10 +8,12 @@
         "types": "./src/index.d.ts",
         "default": "./src/index.js"
       }
-    }
+    },
+    "./plugin": "./src/plugin/index.js"
   },
   "scripts": {
-    "test": "oxlint test"
+    "test": "node --test test/*.test.js",
+    "test:smoke": "oxlint test"
   },
   "repository": {
     "type": "git",
@@ -36,9 +38,13 @@
     "oxlint-tsgolint": ">=0.22.1"
   },
   "devDependencies": {
+    "@types/node": "^25.7.0",
     "oxlint": "^1.63.0",
     "oxlint-tsgolint": "^0.22.1",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@11.0.4"
+  "packageManager": "pnpm@11.0.4",
+  "dependencies": {
+    "@oxlint/plugins": "^1.66.0"
+  }
 }
